@@ -463,7 +463,7 @@ void MainWindow::slot_update_IO_info()
 
 
 
-    qDebug()<<"IO read...";
+    //qDebug()<<"IO read...";
 }
 
 void MainWindow::slot_update_usb(QByteArray res)

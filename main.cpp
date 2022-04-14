@@ -16,7 +16,8 @@ int main(int argc, char *argv[])
     font.setPointSize(8);
     a.setFont(font);
     MainWindow w;
-    w.show();
+    w.adjustSize();
+    w.showMaximized();
     keyboard->show();
 
     return a.exec();

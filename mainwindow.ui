@@ -18,7 +18,7 @@
     <item row="0" column="0">
      <widget class="QTabWidget" name="tabWidget1">
       <property name="currentIndex">
-       <number>6</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab0">
        <attribute name="title">
@@ -280,23 +280,10 @@
              </layout>
             </item>
             <item row="0" column="1">
-             <widget class="QTextEdit" name="textEdit_receive_0">
-              <property name="minimumSize">
-               <size>
-                <width>200</width>
-                <height>100</height>
-               </size>
-              </property>
-             </widget>
+             <widget class="QTextEdit" name="textEdit_receive_0"/>
             </item>
             <item row="1" column="1">
              <widget class="QPlainTextEdit" name="plainTextEdit_send_0">
-              <property name="minimumSize">
-               <size>
-                <width>200</width>
-                <height>100</height>
-               </size>
-              </property>
               <property name="plainText">
                <string>123456</string>
               </property>
@@ -307,14 +294,7 @@
           <item>
            <layout class="QGridLayout" name="gridLayout_serial4" rowstretch="5,1" columnstretch="1,4" columnminimumwidth="0,0">
             <item row="0" column="1">
-             <widget class="QTextEdit" name="textEdit_receive_1">
-              <property name="minimumSize">
-               <size>
-                <width>200</width>
-                <height>100</height>
-               </size>
-              </property>
-             </widget>
+             <widget class="QTextEdit" name="textEdit_receive_1"/>
             </item>
             <item row="0" column="0">
              <layout class="QHBoxLayout" name="horizontalLayout_7">
@@ -555,12 +535,6 @@
             </item>
             <item row="1" column="1">
              <widget class="QPlainTextEdit" name="plainTextEdit_send_1">
-              <property name="minimumSize">
-               <size>
-                <width>200</width>
-                <height>100</height>
-               </size>
-              </property>
               <property name="plainText">
                <string>789abc</string>
               </property>
